@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbutton{
+    text-align: center;
+    font-size:50px ;
+    color: red;
+    position: relative;
+    cursor: pointer;
+    size-adjust: 10%;
+    justify-content: space-evenly;
+}
+
+.Me {
+    justify-content: center;
+    width: 20%;
+}
